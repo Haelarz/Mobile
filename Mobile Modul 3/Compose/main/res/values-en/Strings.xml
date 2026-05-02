@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Compose</string>
+    <string name="menu_title">Menu List</string>
+    <string name="open">Open</string>
+    <string name="detail">Detail</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="language_indonesia">Indonesian</string>
+    <string name="language_english">English</string>
+</resources>
