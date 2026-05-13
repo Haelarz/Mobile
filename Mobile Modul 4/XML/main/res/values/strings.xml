@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Food Menu App</string>
+    <string name="menu_title">Daftar Menu</string>
+    <string name="open">Buka</string>
+    <string name="detail">Detail</string>
+    <string name="language">Bahasa</string>
+    <string name="indonesia">Bahasa Indonesia</string>
+    <string name="english">Bahasa Inggris</string>
+</resources>

@@ -1,0 +1,24 @@
+package com.example.compose
+
+import android.annotation.SuppressLint
+import android.os.Bundle
+import android.webkit.WebView
+import android.webkit.WebViewClient
+import androidx.activity.ComponentActivity
+
+class BrowserActivity : ComponentActivity() {
+    @SuppressLint("SetJavaScriptEnabled")
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        val webView = WebView(this).apply {
+            settings.javaScriptEnabled = true
+            settings.domStorageEnabled = true
+
+            webViewClient = WebViewClient()
+        }
+
+        webView.loadUrl("https://bgn.go.id/")
+        setContentView(webView)
+    }
+}
